@@ -1,7 +1,7 @@
 var overlay = document.querySelector(".overlay");
 var notification = document.querySelector(".notification");
 var openButton = document.querySelector("#openBtn");
-var notificationText = document.querySelector(".notification p");
+// var notificationText = document.querySelector(".notification p");
 var notificationButton = document.querySelector(".notification a");
 var giftIcon = document.querySelector(".giftIcon");
 var giftIconTop = document.querySelector("#giftIconTop");
@@ -13,7 +13,7 @@ setTimeout(() => {
 
 openBtn.addEventListener("click", async function() {
   // When button is clicked
-  notificationText.classList.add("hidden");
+  // notificationText.classList.add("hidden");
   notificationButton.classList.add("hidden");
   await delay(100);
   notification.classList.add("animate");
