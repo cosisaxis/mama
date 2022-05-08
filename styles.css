@@ -30,7 +30,7 @@ body {
   height: 358.75px;
   position: absolute;
   font-size: bold;
-  top: 70%;
+  top: 60%;
   left: 50%;
   z-index: 5;
   margin-top: -179.375px;
@@ -87,7 +87,7 @@ body {
 
 .headerContainer h1 {
   color: #ff6fff;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 900;
   text-align: center;
 
@@ -95,8 +95,8 @@ body {
 
 .headerContainer h2 {
   color: #ffa6c9;
-  font-size: 36px;
-  text-align: right;
+  font-size: 23px;
+  text-align: center;
   text-transform: uppercase;
 }
 
